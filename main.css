@@ -1,0 +1,49 @@
+.intro {
+	margin: 70px 0px;
+	font-weight: bold;
+	/* text-align: center;
+	padding-bottom: 1000px; */
+	color: tomato;
+	/* text-decoration-style: unset; */
+}
+body {
+	background-color: white;
+}
+h1 {
+	font-weight: 800;
+}
+#dolist {
+	width: 500px;
+	border-radius: 25px;
+	border: 2px solid tomato;
+}
+
+li {
+	list-style: none;
+	padding: 10px 20px;
+	color: #ffffff;
+	text-transform: capitalize;
+	font-weight: 600;
+	border: 2px solid #025f70;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	background: tomato;
+	transition: all 0.75s ease;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5 ease;
+}
+
+li:hover {
+	background: #76cfe0;
+}
+
+li > button {
+	font-weight: normal;
+	background: none;
+	border: none;
+	float: right;
+	color: #025f70;
+	font-weight: 800;
+}
